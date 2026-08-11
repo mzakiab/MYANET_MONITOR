@@ -8,3 +8,16 @@ What you need:
 4. LED x 2
 5. Buzzer x 1
 
+## Project Photos
+
+![MYANET Monitor Photo](6325560836813952191.jpg)
+
+![MYANET Monitor Photo 1](6325560836813952190.jpg)
+
+![MYANET Monitor Photo 2](6325560836813952192.jpg)
+
+![MYANET Monitor Photo 3](6325560836813952193.jpg)
+
+![MYANET Monitor Photo 4](6325560836813952194.jpg)
+
+![MYANET Monitor Photo 5](6325560836813952195.jpg)
