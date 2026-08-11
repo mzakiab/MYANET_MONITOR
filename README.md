@@ -21,3 +21,11 @@ What you need:
 ![MYANET Monitor Photo 4](6325560836813952194.jpg)
 
 ![MYANET Monitor Photo 5](6325560836813952195.jpg)
+
+## Support This Project
+
+If you find this project useful, please consider supporting it:
+
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=flat&logo=paypal)](https://www.paypal.me/9W2KEY)
+
+**PayPal:** https://www.paypal.me/9W2KEY
