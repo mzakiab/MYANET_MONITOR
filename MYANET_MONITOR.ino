@@ -19,7 +19,7 @@ BY: 9W2KEY
 const char* aprs_host = "asia.aprs2.net";
 const int aprs_port = 14580;
 
-const char* callsign = "9W2KEY-11";  // Change to your own calls sign
+const char* callsign = "9W2KEY-11";  // Change to your own callsign
 const char* passcode = "-1"; // Read-Only Mode
 const char* app_ver  = "9W2KEY-MYANET-MONITOR v1.0";
 
@@ -57,8 +57,6 @@ void triggerAlert() {
 String lastMessage = "";
 unsigned long lastMessageTime = 0;
 const unsigned long DUP_TIMEOUT = 12000; // Abaikan mesej sama dalam tempoh 12 saat (12000 ms)
-
-
 
 void parseAndDisplayMessage(String rawPacket) { //
   int senderEnd = rawPacket.indexOf('>'); //[cite: 1]
@@ -194,9 +192,6 @@ void parseAndDisplayMessage(String rawPacket) { //
   }
 }
 
-
-
-
 // -------------------------------------------------------------------
 // 3. FUNGSI SETUP
 // -------------------------------------------------------------------
@@ -231,12 +226,12 @@ void setup() {
   lcd.print("Booting System...");
 
   // Setup WiFi Multi (Masukkan senarai WiFi anda)
-  wifiMulti.addAP("nokgapotuu_2.4GHz@unifi", "ingatfreeko");
-  wifiMulti.addAP("nokpasswordwifiko@unifi", "ingatfreeko");
-  wifiMulti.addAP("NOKCURIWIFIKO", "ingatfreeko");
-  wifiMulti.addAP("ABEKEY", "ingatfreeko");
-  wifiMulti.addAP("hana-2.4GHz", "hana2025");
-
+  wifiMulti.addAP("wifi1 ssid", "password wifi1");
+  wifiMulti.addAP("wifi2 ssid", "password wifi2");
+  wifiMulti.addAP("wifi3 ssid", "password wifi3");
+  wifiMulti.addAP("wifi4 ssid", "password wifi4");
+  wifiMulti.addAP("wifi5 ssid", "password wifi5");
+  
   Serial.println("Connecting to WiFi...");
   lcd.setCursor(0, 2);
   lcd.print("Connecting WiFi...");
@@ -356,9 +351,6 @@ void loop() {
       parseAndDisplayMessage(line); //[cite: 1]
     }
   }
-
-
-
 }
 
 
